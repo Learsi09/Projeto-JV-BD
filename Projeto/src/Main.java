@@ -5,7 +5,7 @@ public class Main {
         c.setidCrianca(5);
         c.setNome("josefa");
         c.setIdade(Integer.valueOf("7"));
-        c.setAltura(Float.valueOf("1,30"));
+        c.setAltura(Double.valueOf("1,30"));
         c.setNacionalidade("Francesa");
 
         CadastrarCriancaDAO cadastrarcriancaDAO = new CadastrarCriancaDAO();
